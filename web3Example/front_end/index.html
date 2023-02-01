@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="vanillaApp.js"></script>
+    <title>1st seminar</title>
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1 align="center">Web3 for Vanilla JS</h1>
+            <h3 align="center"><i>Do you want to dive into the Web3 world?</i></h3>
+            <hr width="700px" align="center" size="3" color="gray" noshade><br>
+        </hgroup>
+    </header>
+
+    <section>
+        <article>
+            <ol>
+                <li>Connect the wallet: <button type="botton" onclick ="metamaskConnection()">Connect</button>
+                    <p id="connect_wallet"></p>
+                </li><br>
+                <li>Check the balance: <button type="botton" onclick ="checktheBalance()">Check</button>
+                    <p id="check_balance"></p>
+                </li><br>
+                <li>Transfer ETH from <u>connected Account</u> to Account[9]: <button type="botton" onclick ="ethTransfer()">Transfer</button>
+                    <p id="transferred"></p>
+                </li><br>
+            </ol>
+        </article>
+    </section>
+
+</body>
+</html>
