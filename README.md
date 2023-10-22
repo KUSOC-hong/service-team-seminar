@@ -1,2 +1,32 @@
 # service-team-seminar
-### connect metamask
+## README.md
+### Connect Web3 Practice
+
+This repository contains various projects and examples related to Ethereum blockchain development.
+
+#### Main Directories & Their Content:
+
+1. **BONMedia_Research_Automation**:
+   - Contains automation and web scraping scripts.
+   - `bonmedia` directory:
+     - `main_scraper.ipynb`: Main web scraping Jupyter notebook.
+     - `bonscraper_project`: Django-based web project with scraper functionalities.
+     - `mysite(practice)`: A practice Django web project.
+
+2. **truffleExample**:
+   - Ethereum smart contract development using Truffle.
+   - `contracts`:
+     - `Migrations.sol`: Default migration contract provided by Truffle.
+     - `Simple.sol`: A basic example of a smart contract.
+   - `migrations`: Contains deployment scripts for the smart contracts.
+
+3. **web3Example**:
+   - Web3.js integration examples.
+   - `front_end`:
+     - `index.html`: Main web interface for connecting to Metamask, checking balance, and transferring ETH.
+     - `vanillaApp.js`: Contains the logic for connecting to Metamask, retrieving balance, and initiating transactions.
+
+#### Setting Up:
+
+1. Navigate to the directory of interest.
+2. Follow the instructions or README files within each directory for specific setup steps.
